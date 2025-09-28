@@ -92,14 +92,14 @@ const PoemView = () => {
         </Card>
 
         {/* Navigation */}
-        <div className="flex items-center justify-between gap-6 animate-fade-in">
+        <div className="flex items-center justify-between gap-3 animate-fade-in min-w-0 overflow-hidden">
           {previousPoem ? (
-            <Link to={`/poem/${previousPoem.id}`} className="flex-1">
-              <Button variant="outline" className="w-full justify-start group h-16 bg-gradient-card hover:bg-gradient-card-hover border-border/50 hover:border-accent/30 transition-all duration-300 hover:shadow-soft hover:-translate-y-1">
+            <Link to={`/poem/${previousPoem.id}`} className="flex-1 min-w-0">
+              <Button variant="outline" className="w-full max-w-full justify-start group h-14 md:h-16 bg-gradient-card hover:bg-gradient-card-hover border-border/50 hover:border-accent/30 transition-all duration-300 hover:shadow-soft hover:-translate-y-1">
                 <ChevronLeft className="h-5 w-5 mr-3 group-hover:-translate-x-2 transition-all duration-300 text-accent" />
-                <div className="text-left">
+                <div className="text-left min-w-0">
                   <div className="text-xs text-muted-foreground font-medium mb-1">Previous</div>
-                  <div className="font-semibold truncate text-foreground group-hover:text-primary transition-colors">
+                  <div className="font-semibold truncate text-foreground group-hover:text-primary transition-colors max-w-full">
                     {previousPoem.title}
                   </div>
                 </div>
@@ -109,18 +109,18 @@ const PoemView = () => {
             <div className="flex-1" />
           )}
 
-          <div className="flex-shrink-0">
+          <div className="flex-shrink-0 mx-2">
             <div className="w-12 h-12 rounded-full bg-gradient-sunset flex items-center justify-center shadow-soft">
               <Heart className="w-6 h-6 text-white animate-pulse" />
             </div>
           </div>
 
           {nextPoem ? (
-            <Link to={`/poem/${nextPoem.id}`} className="flex-1">
-              <Button variant="outline" className="w-full justify-end group h-16 bg-gradient-card hover:bg-gradient-card-hover border-border/50 hover:border-accent/30 transition-all duration-300 hover:shadow-soft hover:-translate-y-1">
-                <div className="text-right">
+            <Link to={`/poem/${nextPoem.id}`} className="flex-1 min-w-0">
+              <Button variant="outline" className="w-full max-w-full justify-end group h-14 md:h-16 bg-gradient-card hover:bg-gradient-card-hover border-border/50 hover:border-accent/30 transition-all duration-300 hover:shadow-soft hover:-translate-y-1">
+                <div className="text-right min-w-0">
                   <div className="text-xs text-muted-foreground font-medium mb-1">Next</div>
-                  <div className="font-semibold truncate text-foreground group-hover:text-primary transition-colors">
+                  <div className="font-semibold truncate text-foreground group-hover:text-primary transition-colors max-w-full">
                     {nextPoem.title}
                   </div>
                 </div>

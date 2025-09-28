@@ -59,7 +59,7 @@ export const poems: Poem[] = [
       "Always stubborn, always strong,",
       "I almost always never listened, wrong or right,",
       "But you never gave up, you stayed so long,",
-      "Guiding me through every fight.",
+      "Guiding me through every fight we both went through.",
       "",
       "You taught me lessons, big and small,",
       "With patience, love, and endless care,",
@@ -74,7 +74,12 @@ export const poems: Poem[] = [
       "I'm sorry for the times I made you blue,",
       "For being stubborn, not seeing your view,",
       "But know this truth, so deep and true,",
-      "I love you, Dad, through and through."
+      "I love you, Dad, through and through.",
+      "",
+      "Thank you for your endless love,",
+      "For being my rock, my guiding star,",
+      "I'm once more, sorry for the times that I angered you,",
+      "and I hope to make you proud each day I live."
     ]
   },
   {
@@ -91,6 +96,11 @@ export const poems: Poem[] = [
       "You always step up, always hold the ground,",
       "Staying by my  side, never letting go.",
       "",
+      "And when war came here, you never fled,",
+      "Even from far away, you stood your ground,",
+      "You protected me the most you could,",
+      "Even if it meant sacrificing your own life.",
+      "",
       "You always make sure we're okay,",
       "Providing for us every single day,",
       "You work so hard, you never rest,",
@@ -103,33 +113,48 @@ export const poems: Poem[] = [
     ]
   },
   {
-    id: "dads-hands",
-    title: "Dad's Hands",
+    id: "start-to-end",
+    title: "From the start to the end",
     content: [
-      "I remember your hands so strong,",
-      "That helped me learn right from wrong,",
-      "They built me forts and fixed my toys,",
-      "And clapped for all my little joys.",
+      "From the start to the end, you've been our guide,",
+      "Through every twist and turn, you've been our side,",
+      "With your steady hand and your loving heart,",
+      "You've helped us navigate life's every part.",
       "",
-      "Those same hands work so hard each day,",
-      "To give us love in every way,",
-      "And when I'm scared, they hold me tight,",
-      "Making everything feel right."
+      "Through every challenge, you've been our rock,",
+      "With your unwavering support, you've helped us unlock",
+      "The strength and courage we never knew  we,",
+      "And for that, we're forever grateful, my dad.",
+      "",
+      "From the start to the end, you've alwaysb suffered,",
+      "Putting our needs before your own, you've always offered",
+      "A love that's pure and true, a love that never fades,",
+      "And for that, we're forever grateful, my dad.",
+      "",
+      "From the start to the end, we love you so,",
+      "More than words can ever show,",
+      "And for that, we're forever grateful, my dad,",
+      "For being the best dad we've ever had."
     ]
   },
   {
-    id: "happy birthday",
-    title: "My Dad, My Friend",
+    id: "happy-birthday",
+    title: "A Greeting",
     content: [
-      "You're more than just my father dear,",
-      "You're someone I hold close and near,",
-      "A friend who listens, understands,",
-      "And always lends a helping hand.",
+      "And as we arrive to today, your special day,",
+      "We celebrate you in every single way,",
+      "For all the love and care you give,",
+      "We thank you, Dad, for the life we live.",
       "",
-      "We laugh together, sometimes cry,",
-      "You answer every 'how' and 'why',",
-      "Through all of life's winding bends,",
-      "You're my dad, and best of friends."
+      "So here's to you, on your birthday dear,",
+      "May your day be filled with love and cheer,",
+      "And may you know how much you're loved,",
+      "Today and always, by all of us.",
+      "",
+      "May this year bring you joy and peace,",
+      "And may your blessings never cease,",
+      "For you deserve the very best,",
+      "Happy birthday, Dad, you're simply the best!"
     ]
   }
 ];

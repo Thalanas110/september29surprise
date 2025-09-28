@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <title>Blue Heart</title>
+  <desc>Blue heart favicon for the site</desc>
+  <rect width="100%" height="100%" fill="transparent"/>
+  <path d="M32 56s-4.5-3.7-9.7-8.3C13.7 40.7 6 34 6 24.9 6 17 12.7 11 19.6 11c4 0 7.4 2 9.4 4.9C30.9 13 34.3 11 38.3 11 45.2 11 52 17 52 24.9c0 9.1-7.7 15.8-16.3 22.8C36.5 52.3 32 56 32 56z"
+        fill="#2563EB" />
+</svg>

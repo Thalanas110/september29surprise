@@ -1,6 +1,6 @@
-# Father's Day Poems
+# Surprise Operations
 
-This repository contains a small Vite + React + TypeScript project showcasing a collection of Father's Day poems.
+This repository contains a small Vite + React + TypeScript project showcasing a collection of some poems for my father's 46th birthday.
 
 ## How to run locally
 
@@ -26,3 +26,6 @@ npm run dev
 - Tailwind CSS
 
 Feel free to edit files in the `src/` folder and open a browser at the address shown by the dev server.
+
+## credits
+- Credits to no one and my mom obviously who contributed to this project through a poem.

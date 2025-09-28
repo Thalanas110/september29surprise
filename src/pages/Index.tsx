@@ -1,5 +1,6 @@
 // Update this page (the content is just a fallback if you fail to update the page)
-
+// this is just placeholder content!
+// check  the PoemList.tsx page for the actual content of the app
 const Index = () => {
   return (
     <div className="flex min-h-screen items-center justify-center bg-background">
